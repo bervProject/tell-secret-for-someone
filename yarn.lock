@@ -1913,7 +1913,7 @@
     "@types/yargs" "^15.0.0"
     chalk "^3.0.0"
 
-"@material-ui/core@^4.3.3":
+"@material-ui/core@^4.3.3", "@material-ui/core@^4.9.3":
   version "4.9.3"
   resolved "https://registry.npmjs.org/@material-ui/core/-/core-4.9.3.tgz#29ad51f4d36cbc3af7a9db27d92f93fa4fa42d50"
   integrity sha512-EQrhN7XHdCfBCMiCTHmiHSn/H1tj2qCt5W/kSDhr1gaYAtBTTiQ29j2xR1NcHT1siVQqAtgIkPephqbTEgQLwA==
@@ -1927,26 +1927,6 @@
     clsx "^1.0.2"
     convert-css-length "^2.0.1"
     hoist-non-react-statics "^3.3.2"
-    popper.js "^1.14.1"
-    prop-types "^15.7.2"
-    react-is "^16.8.0"
-    react-transition-group "^4.3.0"
-
-"@material-ui/core@^4.9.2":
-  version "4.9.2"
-  resolved "https://registry.yarnpkg.com/@material-ui/core/-/core-4.9.2.tgz#23c9a697af15d8daf56ffad1955b24209ef48106"
-  integrity sha512-fSf/yBuE5GR7dA+FiQAAGY7HrCN/8RaYApi9tx3IKMiJIJkRCHk+E2lktgJZ+QRsaqCACLo2lwhU2CW5aeO0UQ==
-  dependencies:
-    "@babel/runtime" "^7.4.4"
-    "@material-ui/styles" "^4.9.0"
-    "@material-ui/system" "^4.9.1"
-    "@material-ui/types" "^5.0.0"
-    "@material-ui/utils" "^4.7.1"
-    "@types/react-transition-group" "^4.2.0"
-    clsx "^1.0.2"
-    convert-css-length "^2.0.1"
-    hoist-non-react-statics "^3.3.2"
-    normalize-scroll-left "^0.2.0"
     popper.js "^1.14.1"
     prop-types "^15.7.2"
     react-is "^16.8.0"
@@ -1979,15 +1959,6 @@
     jss-plugin-props-sort "^10.0.3"
     jss-plugin-rule-value-function "^10.0.3"
     jss-plugin-vendor-prefixer "^10.0.3"
-    prop-types "^15.7.2"
-
-"@material-ui/system@^4.9.1":
-  version "4.9.1"
-  resolved "https://registry.yarnpkg.com/@material-ui/system/-/system-4.9.1.tgz#beb6595e1b164317340bdc5a629a6798fc35f82d"
-  integrity sha512-CLrJK2aKNWNwruGVTRf+rLz96P4jmozpY2UaCE6hBTa1oGsQ396YXOQQABQ4c0igawmdyf5iQb0zs9j5zsAf1w==
-  dependencies:
-    "@babel/runtime" "^7.4.4"
-    "@material-ui/utils" "^4.7.1"
     prop-types "^15.7.2"
 
 "@material-ui/system@^4.9.3":
@@ -8568,11 +8539,6 @@ normalize-range@^0.1.2:
   resolved "https://registry.yarnpkg.com/normalize-range/-/normalize-range-0.1.2.tgz#2d10c06bdfd312ea9777695a4d28439456b75942"
   integrity sha1-LRDAa9/TEuqXd2laTShDlFa3WUI=
 
-normalize-scroll-left@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/normalize-scroll-left/-/normalize-scroll-left-0.2.0.tgz#9445d74275f303cc661e113329aefa492f58114c"
-  integrity sha512-t5oCENZJl8TGusJKoCJm7+asaSsPuNmK6+iEjrZ5TyBj2f02brCRsd4c83hwtu+e5d4LCSBZ0uoDlMjBo+A8yA==
-
 normalize-url@1.9.1:
   version "1.9.1"
   resolved "https://registry.yarnpkg.com/normalize-url/-/normalize-url-1.9.1.tgz#2cc0d66b31ea23036458436e3620d85954c66c3c"
@@ -10211,10 +10177,10 @@ ra-core@^3.2.2:
     recompose "~0.26.0"
     reselect "~3.0.0"
 
-ra-data-feathers@^2.5.0:
-  version "2.5.0"
-  resolved "https://registry.npmjs.org/ra-data-feathers/-/ra-data-feathers-2.5.0.tgz#6379da2400808756c229cb306cbc77f8985d64d1"
-  integrity sha512-i3Zb7wBPv9OWD7bytbnuAmE2WwuyHmbtwPZM+D+05fxaasvmeG77w5C6nKrxWTakuQnAgOTA2EhruUW1KOfqIg==
+ra-data-feathers@^2.6.0:
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/ra-data-feathers/-/ra-data-feathers-2.6.0.tgz#599289ce0bcc6e84427a9c08f9964a68bba6cce8"
+  integrity sha512-luvECE5t00Zjq5aL/5yzgtw2pUUMFUWkN3iE2L8I0w3goy1tt0d44/M4PWa/gTdAbQt1atoZnGcga/aIduODfA==
   dependencies:
     debug "^3.0.0"
     jwt-decode "^2.2.0"
