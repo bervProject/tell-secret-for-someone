@@ -6,7 +6,7 @@ import { restClient, authClient } from 'ra-data-feathers';
 import feathersClient from './feathersClient';
 import Dashboard from './Dashboard';
 import { UsersList } from './services/Users';
-import { MessageList } from './services/Message';
+import { MessageList, MessageInsert, MessageShow } from './services/Message';
 
 const authClientOptions = {
   storageKey: 'token', // The key in localStorage used to store the authentication token
@@ -33,7 +33,7 @@ const App: React.FC = () => {
       dataProvider={restClient(feathersClient, restClientOptions)}
       authProvider={authClient(feathersClient, authClientOptions)}>
       <Resource name="users" list={UsersList} />
-      <Resource name="message" list={MessageList} />
+      <Resource name="message" list={MessageList} create={MessageInsert} show={MessageShow} />
     </Admin>
   );
 }
