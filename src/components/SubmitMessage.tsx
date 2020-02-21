@@ -8,8 +8,13 @@ import DialogTitle from '@material-ui/core/DialogTitle';
 import TextField from '@material-ui/core/TextField';
 import feathersClient from '../feathersClient';
 
+interface CustomComponent {
+  source: any,
+  record: {[index:string]:any}
+}
+
 // @ts-ignore
-const SubmitMessage: any = ({ source, record = {} }) => {
+const SubmitMessage: any = ({ source, record = {} } : CustomComponent) => {
   const [open, setOpen] = React.useState(false);
   const [openMessage, setOpenMessage] = React.useState(false);
   const [openSnackbar, setOpenSnackbar] = React.useState(false);
