@@ -9,7 +9,7 @@ import TextField from '@material-ui/core/TextField';
 import feathersClient from '../feathersClient';
 
 // @ts-ignore
-const SubmitMessage: any = ({ source, record = {} }) => {
+const SubmitMessage: any = ({ source, record: {[index: string]:any} = {} }) => {
   const [open, setOpen] = React.useState(false);
   const [openMessage, setOpenMessage] = React.useState(false);
   const [openSnackbar, setOpenSnackbar] = React.useState(false);
