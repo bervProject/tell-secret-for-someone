@@ -7,6 +7,7 @@ import {
   SimpleForm,
   Datagrid,
   TextField,
+  EmailField,
   TextInput,
   ShowButton,
   PasswordInput
@@ -21,6 +22,7 @@ export const MessageList: React.FC = (props: any) => (
     <Datagrid>
       <TextField source="id" />
       <TextField source="text" />
+      <EmailField source="to" />
       <ShowButton />
     </Datagrid>
   </List>
@@ -29,8 +31,9 @@ export const MessageList: React.FC = (props: any) => (
 export const MessageInsert: React.FC = (props: any) => (
   <Create {...props}>
     <SimpleForm>
-      <TextInput multiline source="text" />
-      <PasswordInput source="messagePassword" />
+      <TextInput multiline source="text" required />
+      <TextInput type="email" source="to" />
+      <PasswordInput source="messagePassword" required />
     </SimpleForm>
   </Create>
 );
@@ -39,6 +42,7 @@ export const MessageShow: React.FC = (props: any) => (
   <Show {...props}>
     <SimpleShowLayout>
       <TextField source="text" />
+      <EmailField source="to" />
       <SubmitMessage source="text" />
     </SimpleShowLayout>
   </Show>
