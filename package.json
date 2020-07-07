@@ -38,7 +38,7 @@
     "axios": "^0.19.2",
     "ra-data-feathers": "^2.7.0",
     "react": "^16.13.1",
-    "react-admin": "^3.6.2",
+    "react-admin": "^3.7.0",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
     "typescript": "3.9.6"
