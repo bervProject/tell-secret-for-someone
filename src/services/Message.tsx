@@ -12,8 +12,7 @@ import {
   ShowButton,
   PasswordInput
 }
-  // @ts-ignore
-  from 'react-admin';
+from 'react-admin';
 
 import SubmitMessage from '../components/SubmitMessage';
 
