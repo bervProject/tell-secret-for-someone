@@ -15,6 +15,7 @@ import {
 
 import SubmitMessage from '../components/SubmitMessage';
 
+/* eslint-disable @typescript-eslint/no-explicit-any*/
 export const MessageList: React.FC = (props: any) => (
   <List {...props}>
     <Datagrid>

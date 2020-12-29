@@ -8,6 +8,7 @@ import DialogTitle from '@material-ui/core/DialogTitle';
 import TextField from '@material-ui/core/TextField';
 import feathersClient from '../feathersClient';
 
+/* eslint-disable @typescript-eslint/no-explicit-any*/
 interface CustomComponent {
   source: any;
   record: { [index: string]: any };
