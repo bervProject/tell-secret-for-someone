@@ -1,7 +1,5 @@
 import React from 'react';
-// @ts-ignore
 import { Admin, Resource } from 'react-admin';
-// @ts-ignore
 import { restClient, authClient } from 'ra-data-feathers';
 import feathersClient from './feathersClient';
 import Dashboard from './Dashboard';
@@ -10,7 +8,8 @@ import { MessageList, MessageInsert, MessageShow } from './services/Message';
 
 const authClientOptions = {
   storageKey: 'token', // The key in localStorage used to store the authentication token
-  authenticate: { // Options included in calls to Feathers client.authenticate
+  authenticate: {
+    // Options included in calls to Feathers client.authenticate
     strategy: 'local', // The authentication strategy Feathers should use
   },
   permissionsKey: 'permissions', // The key in localStorage used to store permissions from decoded JWT
@@ -24,18 +23,24 @@ const authClientOptions = {
 const restClientOptions = {
   id: 'id', // If your database uses an id field other than 'id'. Optional.
   usePatch: true, // Use PATCH instead of PUT for UPDATE requests. Optional.
-}
+};
 
 const App: React.FC = () => {
   return (
     <Admin
       dashboard={Dashboard}
       dataProvider={restClient(feathersClient, restClientOptions)}
-      authProvider={authClient(feathersClient, authClientOptions)}>
+      authProvider={authClient(feathersClient, authClientOptions)}
+    >
       <Resource name="users" list={UsersList} />
-      <Resource name="message" list={MessageList} create={MessageInsert} show={MessageShow} />
+      <Resource
+        name="message"
+        list={MessageList}
+        create={MessageInsert}
+        show={MessageShow}
+      />
     </Admin>
   );
-}
+};
 
 export default App;

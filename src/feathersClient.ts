@@ -7,12 +7,16 @@ import axios from 'axios';
 const app = feathers();
 
 // Connect to a different URL
-const restClient = rest(process.env.REACT_APP_ENDPOINT || 'http://localhost:3030')
+const restClient = rest(
+  process.env.REACT_APP_ENDPOINT || 'http://localhost:3030',
+);
 
 // Configure an AJAX library (see below) with that client
 app.configure(restClient.axios(axios));
-app.configure(auth({
-  storageKey: 'token'
-}));
+app.configure(
+  auth({
+    storageKey: 'token',
+  }),
+);
 
 export default app;

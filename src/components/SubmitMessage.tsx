@@ -9,12 +9,11 @@ import TextField from '@material-ui/core/TextField';
 import feathersClient from '../feathersClient';
 
 interface CustomComponent {
-  source: any,
-  record: {[index:string]:any}
+  source: any;
+  record: { [index: string]: any };
 }
 
-// @ts-ignore
-const SubmitMessage: any = ({ source, record = {} } : CustomComponent) => {
+const SubmitMessage: any = ({ source, record = {} }: CustomComponent) => {
   const [open, setOpen] = React.useState(false);
   const [openMessage, setOpenMessage] = React.useState(false);
   const [openSnackbar, setOpenSnackbar] = React.useState(false);
@@ -33,33 +32,42 @@ const SubmitMessage: any = ({ source, record = {} } : CustomComponent) => {
 
   const handleCloseMessage = () => {
     setOpenMessage(false);
-  }
+  };
 
   const handleCloseSnackbar = () => {
     setOpenSnackbar(false);
-  }
+  };
 
   const handleSubmit = () => {
     setOpen(false);
     setValue('');
-    let text = record[source];
-    let id = record["id"];
+    const text = record[source];
+    const id = record['id'];
     if (!id || !text || !value) {
       return false;
     }
-    feathersClient.service('message').get(id, { headers: { key: value } }).then(
-      (result: any) => {
-        let message = result.text;
+    feathersClient
+      .service('message')
+      .get(id, { headers: { key: value } })
+      .then((result: any) => {
+        const message = result.text;
         setMessage(message);
         setOpenMessage(true);
-      }
-    ).catch(() => setOpenSnackbar(true));
-  }
+      })
+      .catch(() => setOpenSnackbar(true));
+  };
 
   return (
     <div>
-      <Button color='primary' variant='contained' onClick={handleClickOpen}>Show Message</Button>
-      <Dialog fullScreen={fullScreen} open={open} onClose={handleClose} aria-labelledby="fmd-title-custom">
+      <Button color="primary" variant="contained" onClick={handleClickOpen}>
+        Show Message
+      </Button>
+      <Dialog
+        fullScreen={fullScreen}
+        open={open}
+        onClose={handleClose}
+        aria-labelledby="fmd-title-custom"
+      >
         <DialogTitle id="fmd-title-custom">Please Input Password</DialogTitle>
         <DialogContent>
           <DialogContentText>
@@ -93,7 +101,9 @@ const SubmitMessage: any = ({ source, record = {} } : CustomComponent) => {
         aria-labelledby="alert-dialog-title"
         aria-describedby="alert-dialog-description"
       >
-        <DialogTitle id="alert-dialog-title">{"This is your message!"}</DialogTitle>
+        <DialogTitle id="alert-dialog-title">
+          {'This is your message!'}
+        </DialogTitle>
         <DialogContent>
           <DialogContentText id="alert-dialog-description">
             {message}
@@ -117,7 +127,11 @@ const SubmitMessage: any = ({ source, record = {} } : CustomComponent) => {
         message="Failed to open message"
         action={
           <React.Fragment>
-            <Button color="secondary" size="small" onClick={handleCloseSnackbar}>
+            <Button
+              color="secondary"
+              size="small"
+              onClick={handleCloseSnackbar}
+            >
               OK
             </Button>
           </React.Fragment>

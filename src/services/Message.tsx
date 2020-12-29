@@ -10,9 +10,8 @@ import {
   EmailField,
   TextInput,
   ShowButton,
-  PasswordInput
-}
-from 'react-admin';
+  PasswordInput,
+} from 'react-admin';
 
 import SubmitMessage from '../components/SubmitMessage';
 
