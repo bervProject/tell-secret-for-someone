@@ -4,7 +4,7 @@
   "author": {
     "email": "bervianto.leo@gmail.com",
     "name": "Bervianto Leo Pratama",
-    "url": "https://berviantoleo.github.io"
+    "url": "https://berviantoleo.my.id"
   },
   "categories": [
     "Other"
@@ -13,7 +13,7 @@
     {
       "email": "bervianto.leo@gmail.com",
       "name": "Bervianto Leo Pratama",
-      "url": "https://berviantoleo.github.io"
+      "url": "https://berviantoleo.my.id"
     }
   ],
   "description": "Site for you that not brave enough to tell something for something special.",
@@ -31,10 +31,6 @@
     "@feathersjs/feathers": "^4.5.11",
     "@feathersjs/rest-client": "^4.5.11",
     "@material-ui/core": "^4.11.2",
-    "@types/jest": "26.0.19",
-    "@types/node": "14.14.16",
-    "@types/react": "17.0.0",
-    "@types/react-dom": "17.0.0",
     "axios": "^0.21.1",
     "ra-data-feathers": "^2.8.1",
     "react": "^17.0.1",
@@ -42,6 +38,12 @@
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.1",
     "typescript": "4.1.3"
+  },
+  "devDependencies": {
+    "@types/jest": "26.0.19",
+    "@types/node": "14.14.16",
+    "@types/react": "17.0.0",
+    "@types/react-dom": "17.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
