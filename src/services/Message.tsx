@@ -5,6 +5,7 @@ import {
   Show,
   SimpleShowLayout,
   SimpleForm,
+  SimpleList,
   Datagrid,
   TextField,
   EmailField,
@@ -12,21 +13,35 @@ import {
   ShowButton,
   PasswordInput,
 } from 'react-admin';
+import { useTheme } from '@material-ui/core/styles';
+import { useMediaQuery } from '@material-ui/core';
 import RichTextInput from 'ra-input-rich-text';
 
 import SubmitMessage from '../components/SubmitMessage';
 
 /* eslint-disable @typescript-eslint/no-explicit-any*/
-export const MessageList: React.FC = (props: any) => (
-  <List {...props}>
-    <Datagrid>
-      <TextField source="id" />
-      <TextField source="text" />
-      <EmailField source="to" />
-      <ShowButton />
-    </Datagrid>
-  </List>
-);
+export const MessageList: React.FC = (props: any) => {
+  const theme = useTheme();
+  const isSmall = useMediaQuery(theme.breakpoints.down('sm'));
+  return (
+    <List {...props}>
+      {isSmall ? (
+        <SimpleList
+          primaryText={(record) => record.to}
+          secondaryText={(record) => record.text}
+          linkType="show"
+        />
+      ) : (
+        <Datagrid>
+          <TextField source="id" />
+          <TextField source="text" />
+          <EmailField source="to" />
+          <ShowButton />
+        </Datagrid>
+      )}
+    </List>
+  );
+};
 
 export const MessageInsert: React.FC = (props: any) => (
   <Create {...props}>
