@@ -12,6 +12,7 @@ import {
   ShowButton,
   PasswordInput,
 } from 'react-admin';
+import RichTextInput from 'ra-input-rich-text';
 
 import SubmitMessage from '../components/SubmitMessage';
 
@@ -30,7 +31,7 @@ export const MessageList: React.FC = (props: any) => (
 export const MessageInsert: React.FC = (props: any) => (
   <Create {...props}>
     <SimpleForm>
-      <TextInput multiline source="text" required />
+      <RichTextInput source="text" required />
       <TextInput type="email" source="to" />
       <PasswordInput source="messagePassword" required />
     </SimpleForm>
