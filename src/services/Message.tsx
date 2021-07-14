@@ -8,6 +8,7 @@ import {
   SimpleList,
   Datagrid,
   TextField,
+  DateField,
   EmailField,
   TextInput,
   ShowButton,
@@ -35,6 +36,8 @@ export const MessageList: React.FC = (props: any) => {
         <Datagrid>
           <TextField source="id" />
           <TextField source="text" />
+          <TextField source="createdBy" />
+          <DateField source="createdAt" />
           <EmailField source="to" />
           <ShowButton />
         </Datagrid>
@@ -58,6 +61,8 @@ export const MessageShow: React.FC = (props: any) => (
     <SimpleShowLayout>
       <TextField source="text" />
       <EmailField source="to" />
+      <TextField source="createdBy" />
+      <DateField source="createdAt" />
       <SubmitMessage source="text" />
     </SimpleShowLayout>
   </Show>
