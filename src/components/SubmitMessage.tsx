@@ -107,7 +107,7 @@ const SubmitMessage: any = ({ source, record = {} }: CustomComponent) => {
         </DialogTitle>
         <DialogContent>
           <DialogContentText id="alert-dialog-description">
-            {message}
+            <p dangerouslySetInnerHTML={{ __html: message }}></p>
           </DialogContentText>
         </DialogContent>
         <DialogActions>
