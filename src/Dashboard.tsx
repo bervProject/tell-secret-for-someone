@@ -33,7 +33,7 @@ const Dashboard: React.FC = () => {
         console.error(error.message);
         setSnackbar(true);
       });
-  });
+  }, [totalMessage]);
 
   return (
     <React.Fragment>
