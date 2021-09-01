@@ -23,7 +23,6 @@ jobs:
         restore-keys: |
           ${{ runner.os }}-yarn-
     - name: Install
-      if: ${{ steps.yarn-cache.outputs.cache-hit != 'true' }}
       run: yarn --frozen-lockfile
     - name: Lint and Build
       run: |
