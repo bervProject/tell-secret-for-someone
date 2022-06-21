@@ -16,7 +16,7 @@ import {
 } from 'react-admin';
 import { useTheme } from '@material-ui/core/styles';
 import { useMediaQuery } from '@material-ui/core';
-import RichTextInput from 'ra-input-rich-text';
+import { RichTextInput } from 'ra-input-rich-text';
 
 import SubmitMessage from '../components/SubmitMessage';
 
@@ -49,7 +49,7 @@ export const MessageList: React.FC = (props: any) => {
 export const MessageInsert: React.FC = (props: any) => (
   <Create {...props}>
     <SimpleForm>
-      <RichTextInput source="text" required />
+      <RichTextInput source="text" />
       <TextInput type="email" source="to" />
       <PasswordInput source="messagePassword" required />
     </SimpleForm>
