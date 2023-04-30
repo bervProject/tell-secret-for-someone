@@ -1346,17 +1346,17 @@
     long-timeout "^0.1.1"
     uuid "^9.0.0"
 
-"@feathersjs/commons@^5.0.4", "@feathersjs/commons@^5.0.5":
+"@feathersjs/commons@^5.0.5":
   version "5.0.5"
   resolved "https://registry.yarnpkg.com/@feathersjs/commons/-/commons-5.0.5.tgz#a912449cf9b2ea150caa4d0ffdd13bac0ff1bcaa"
   integrity sha512-LQiczfNRzL2Q+23NedZCkfYujZXvs68EySqYvvpAZwbIxqdes/0sU64ztb4h8+eEQHLVln9ifIzt5Rzv39ag9w==
 
-"@feathersjs/errors@^5.0.4", "@feathersjs/errors@^5.0.5":
+"@feathersjs/errors@^5.0.5":
   version "5.0.5"
   resolved "https://registry.yarnpkg.com/@feathersjs/errors/-/errors-5.0.5.tgz#6165ff3cb018b7d6916ac23854aa0fb0f62a6cc8"
   integrity sha512-hD9rTSlJhsormcHcyYFdjQ/O75qk4cZbxougG1NUXaEES7CsXEdXKyWVhbYeq8zLRK/FbdgN1HvxuFnpx/jqsA==
 
-"@feathersjs/feathers@^5.0.3", "@feathersjs/feathers@^5.0.4", "@feathersjs/feathers@^5.0.5":
+"@feathersjs/feathers@^5.0.3", "@feathersjs/feathers@^5.0.5":
   version "5.0.5"
   resolved "https://registry.yarnpkg.com/@feathersjs/feathers/-/feathers-5.0.5.tgz#4b8145e1caed9c7483ebe78c5e0d4252213bce1f"
   integrity sha512-IJQ5bEacRQ8CXCL2v3zhKTD8NPG78xzLCkWZqifQAGbaoBMCKdGUo1fa9mQ0ZNSfqHTn2hlj4kSt3rucdLiKZA==
@@ -2630,10 +2630,10 @@
   dependencies:
     "@types/react" "*"
 
-"@types/react@*", "@types/react@18.0.38":
-  version "18.0.38"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-18.0.38.tgz#02a23bef8848b360a0d1dceef4432c15c21c600c"
-  integrity sha512-ExsidLLSzYj4cvaQjGnQCk4HFfVT9+EZ9XZsQ8Hsrcn8QNgXtpZ3m9vSIC2MWtx7jHictK6wYhQgGh6ic58oOw==
+"@types/react@*", "@types/react@18.2.0":
+  version "18.2.0"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-18.2.0.tgz#15cda145354accfc09a18d2f2305f9fc099ada21"
+  integrity sha512-0FLj93y5USLHdnhIhABk83rm8XEGA7kH3cr+YUlvxoUGp1xNt/DINUMvqPxLyOQMzLmZe8i4RTHbvb8MC7NmrA==
   dependencies:
     "@types/prop-types" "*"
     "@types/scheduler" "*"
