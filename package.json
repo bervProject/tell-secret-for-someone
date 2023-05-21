@@ -27,9 +27,9 @@
   },
   "private": true,
   "dependencies": {
-    "@feathersjs/authentication-client": "^5.0.5",
-    "@feathersjs/feathers": "^5.0.3",
-    "@feathersjs/rest-client": "^5.0.5",
+    "@feathersjs/authentication-client": "^4.5.16",
+    "@feathersjs/feathers": "^4.5.16",
+    "@feathersjs/rest-client": "^4.5.16",
     "@material-ui/core": "^4.12.4",
     "axios": "^1.4.0",
     "ra-data-feathers": "^2.9.4",
