@@ -1,11 +1,12 @@
 import React from 'react';
-import { Button, useTheme, useMediaQuery, Snackbar } from '@material-ui/core';
-import Dialog from '@material-ui/core/Dialog';
-import DialogActions from '@material-ui/core/DialogActions';
-import DialogContent from '@material-ui/core/DialogContent';
-import DialogContentText from '@material-ui/core/DialogContentText';
-import DialogTitle from '@material-ui/core/DialogTitle';
-import TextField from '@material-ui/core/TextField';
+import { Button, useTheme, useMediaQuery, Snackbar } from '@mui/material';
+import { LoadingButton } from '@mui/lab';
+import Dialog from '@mui/material/Dialog';
+import DialogActions from '@mui/material/DialogActions';
+import DialogContent from '@mui/material/DialogContent';
+import DialogContentText from '@mui/material/DialogContentText';
+import DialogTitle from '@mui/material/DialogTitle';
+import TextField from '@mui/material/TextField';
 import feathersClient from '../feathersClient';
 
 /* eslint-disable @typescript-eslint/no-explicit-any*/
@@ -18,6 +19,7 @@ const SubmitMessage: any = ({ source, record = {} }: CustomComponent) => {
   const [open, setOpen] = React.useState(false);
   const [openMessage, setOpenMessage] = React.useState(false);
   const [openSnackbar, setOpenSnackbar] = React.useState(false);
+  const [decrypting, setDecrypting] = React.useState(false);
   const [value, setValue] = React.useState<string>('');
   const [message, setMessage] = React.useState<string>('');
   const theme = useTheme();
@@ -40,8 +42,7 @@ const SubmitMessage: any = ({ source, record = {} }: CustomComponent) => {
   };
 
   const handleSubmit = () => {
-    setOpen(false);
-    setValue('');
+    setDecrypting(true);
     const text = record[source];
     const id = record['id'];
     if (!id || !text || !value) {
@@ -55,7 +56,12 @@ const SubmitMessage: any = ({ source, record = {} }: CustomComponent) => {
         setMessage(message);
         setOpenMessage(true);
       })
-      .catch(() => setOpenSnackbar(true));
+      .catch(() => setOpenSnackbar(true))
+      .finally(() => {
+        setOpen(false);
+        setValue('');
+        setDecrypting(false);
+      });
   };
 
   return (
@@ -86,12 +92,20 @@ const SubmitMessage: any = ({ source, record = {} }: CustomComponent) => {
           />
         </DialogContent>
         <DialogActions>
-          <Button onClick={handleClose} color="primary">
+          <LoadingButton
+            loading={decrypting}
+            onClick={handleClose}
+            color="primary"
+          >
             Cancel
-          </Button>
-          <Button onClick={handleSubmit} color="primary">
+          </LoadingButton>
+          <LoadingButton
+            loading={decrypting}
+            onClick={handleSubmit}
+            color="primary"
+          >
             Open
-          </Button>
+          </LoadingButton>
         </DialogActions>
       </Dialog>
 

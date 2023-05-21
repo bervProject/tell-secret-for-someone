@@ -1,8 +1,8 @@
 // in src/Dashboard.js
 import React, { useEffect, useState } from 'react';
-import Card from '@material-ui/core/Card';
-import { Button, Snackbar } from '@material-ui/core';
-import CardContent from '@material-ui/core/CardContent';
+import Card from '@mui/material/Card';
+import { Button, Snackbar } from '@mui/material';
+import CardContent from '@mui/material/CardContent';
 import { Title } from 'react-admin';
 import feathersClient from './feathersClient';
 

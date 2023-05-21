@@ -14,8 +14,8 @@ import {
   ShowButton,
   PasswordInput,
 } from 'react-admin';
-import { useTheme } from '@material-ui/core/styles';
-import { useMediaQuery } from '@material-ui/core';
+import { useTheme } from '@mui/material/styles';
+import { useMediaQuery } from '@mui/material';
 import { RichTextInput } from 'ra-input-rich-text';
 
 import SubmitMessage from '../components/SubmitMessage';
