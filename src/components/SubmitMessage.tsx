@@ -45,6 +45,8 @@ const SubmitMessage: any = ({ source, record = {} }: CustomComponent) => {
     setDecrypting(true);
     const text = record[source];
     const id = record['id'];
+    // TODO: remove this, temporary debug
+    console.log(id, text, value);
     if (!id || !text || !value) {
       return false;
     }
