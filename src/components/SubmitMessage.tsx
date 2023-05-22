@@ -1,4 +1,5 @@
 import React from 'react';
+import { useRecordContext } from 'react-admin';
 import { Button, useTheme, useMediaQuery, Snackbar } from '@mui/material';
 import { LoadingButton } from '@mui/lab';
 import Dialog from '@mui/material/Dialog';
@@ -12,10 +13,11 @@ import feathersClient from '../feathersClient';
 /* eslint-disable @typescript-eslint/no-explicit-any*/
 interface CustomComponent {
   source: any;
-  record: { [index: string]: any };
 }
 
-const SubmitMessage: any = ({ source, record = {} }: CustomComponent) => {
+const SubmitMessage: any = ({ source }: CustomComponent) => {
+  const record = useRecordContext();
+  if (!record) return null;
   const [open, setOpen] = React.useState(false);
   const [openMessage, setOpenMessage] = React.useState(false);
   const [openSnackbar, setOpenSnackbar] = React.useState(false);
