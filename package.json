@@ -50,8 +50,8 @@
     "@typescript-eslint/eslint-plugin": "^5.61.0",
     "@typescript-eslint/parser": "^5.61.0",
     "eslint-config-prettier": "^9.0.0",
-    "eslint-plugin-prettier": "^4.2.1",
-    "prettier": "^2.8.8"
+    "eslint-plugin-prettier": "^5.0.0",
+    "prettier": "^3.0.2"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -74,5 +74,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "packageManager": "yarn@1.22.19"
 }
