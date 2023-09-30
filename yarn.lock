@@ -1862,15 +1862,6 @@
     react-is "^18.2.0"
     react-transition-group "^4.4.5"
 
-"@mui/private-theming@^5.14.10", "@mui/private-theming@^5.14.11":
-  version "5.14.11"
-  resolved "https://registry.yarnpkg.com/@mui/private-theming/-/private-theming-5.14.11.tgz#1543b4d13d5cb32018c5bd41b516db1c33f70344"
-  integrity sha512-MSnNNzTu9pfKLCKs1ZAKwOTgE4bz+fQA0fNr8Jm7NDmuWmw0CaN9Vq2/MHsatE7+S0A25IAKby46Uv1u53rKVQ==
-  dependencies:
-    "@babel/runtime" "^7.22.15"
-    "@mui/utils" "^5.14.11"
-    prop-types "^15.8.1"
-
 "@mui/private-theming@^5.14.11":
   version "5.14.11"
   resolved "https://registry.yarnpkg.com/@mui/private-theming/-/private-theming-5.14.11.tgz#1543b4d13d5cb32018c5bd41b516db1c33f70344"
@@ -8884,10 +8875,10 @@ ra-i18n-polyglot@^4.14.4:
     node-polyglot "^2.2.2"
     ra-core "^4.14.4"
 
-ra-input-rich-text@^4.14.3:
-  version "4.14.3"
-  resolved "https://registry.yarnpkg.com/ra-input-rich-text/-/ra-input-rich-text-4.14.3.tgz#11c26db799d22af74cf0f6657399b6a39f82ce50"
-  integrity sha512-nyQFvsV2Ub5UuHbSk1GkQCJmt6XuOgM8b+FdbirueK4MjflyX/hFCa7CzJWUPRuclZFLP7+t+ByqHlql5TX82Q==
+ra-input-rich-text@^4.14.4:
+  version "4.14.4"
+  resolved "https://registry.yarnpkg.com/ra-input-rich-text/-/ra-input-rich-text-4.14.4.tgz#462781a91824b311863a2b56d1a2a8cb9f179e88"
+  integrity sha512-a/9cNwKGND26UB7A/S2ktVzeJWBsiqpBDwxgKOFXYK9q20NrSpi2kOxHuwL2tboSPOxN3c+avPdNehNGm1ig8Q==
   dependencies:
     "@tiptap/core" "^2.0.3"
     "@tiptap/extension-color" "^2.0.3"
