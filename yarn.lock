@@ -1879,19 +1879,6 @@
     "@linaria/logger" "^4.0.0"
     babel-merge "^3.0.0"
 
-"@mui/base@5.0.0-beta.21":
-  version "5.0.0-beta.21"
-  resolved "https://registry.yarnpkg.com/@mui/base/-/base-5.0.0-beta.21.tgz#5bf952c9d3703ae4f697702f0821e5dea178f34e"
-  integrity sha512-eTKWx3WV/nwmRUK4z4K1MzlMyWCsi3WJ3RtV4DiXZeRh4qd4JCyp1Zzzi8Wv9xM4dEBmqQntFoei716PzwmFfA==
-  dependencies:
-    "@babel/runtime" "^7.23.2"
-    "@floating-ui/react-dom" "^2.0.2"
-    "@mui/types" "^7.2.7"
-    "@mui/utils" "^5.14.15"
-    "@popperjs/core" "^2.11.8"
-    clsx "^2.0.0"
-    prop-types "^15.8.1"
-
 "@mui/base@5.0.0-beta.22":
   version "5.0.0-beta.22"
   resolved "https://registry.yarnpkg.com/@mui/base/-/base-5.0.0-beta.22.tgz#9ea6be6c8bfc4d8f825660da36d228f5315d4706"
@@ -1905,10 +1892,10 @@
     clsx "^2.0.0"
     prop-types "^15.8.1"
 
-"@mui/core-downloads-tracker@^5.14.15":
-  version "5.14.15"
-  resolved "https://registry.yarnpkg.com/@mui/core-downloads-tracker/-/core-downloads-tracker-5.14.15.tgz#23a9100eb125e5ab92e350e53e613e171d80be3b"
-  integrity sha512-ZCDzBWtCKjAYAlKKM3PA/jG/3uVIDT9ZitOtVixIVmTCQyc5jSV1qhJX8+qIGz4RQZ9KLzPWO2tXd0O5hvzouQ==
+"@mui/core-downloads-tracker@^5.14.16":
+  version "5.14.16"
+  resolved "https://registry.yarnpkg.com/@mui/core-downloads-tracker/-/core-downloads-tracker-5.14.16.tgz#03ceb422d69a33e6c1cbd7e943cf60816878be2a"
+  integrity sha512-97isBjzH2v1K7oB4UH2f4NOkBShOynY6dhnoR2XlUk/g6bb7ZBv2I3D1hvvqPtpEigKu93e7f/jAYr5d9LOc5w==
 
 "@mui/icons-material@^5.0.1":
   version "5.11.16"
@@ -1931,18 +1918,18 @@
     clsx "^2.0.0"
     prop-types "^15.8.1"
 
-"@mui/material@^5.0.2", "@mui/material@^5.14.15":
-  version "5.14.15"
-  resolved "https://registry.yarnpkg.com/@mui/material/-/material-5.14.15.tgz#dadc58588aef4556a0ed6a2d70ad70922df5264f"
-  integrity sha512-Gq65rHjvLzkxmhG8bvag851Oqsmru7qkUb/cCI2xu7dQzmY345f9xJRJi72sRGjhaqHXWeRKw/yIwp/7oQoeXg==
+"@mui/material@^5.0.2", "@mui/material@^5.14.16":
+  version "5.14.16"
+  resolved "https://registry.yarnpkg.com/@mui/material/-/material-5.14.16.tgz#45cd62d312d10399d3813ee6dc43bd1f11179bf4"
+  integrity sha512-W4zZ4vnxgGk6/HqBwgsDHKU7x2l2NhX+r8gAwfg58Rhu3ikfY7NkIS6y8Gl3NkATc4GG1FNaGjjpQKfJx3U6Jw==
   dependencies:
     "@babel/runtime" "^7.23.2"
-    "@mui/base" "5.0.0-beta.21"
-    "@mui/core-downloads-tracker" "^5.14.15"
-    "@mui/system" "^5.14.15"
-    "@mui/types" "^7.2.7"
-    "@mui/utils" "^5.14.15"
-    "@types/react-transition-group" "^4.4.7"
+    "@mui/base" "5.0.0-beta.22"
+    "@mui/core-downloads-tracker" "^5.14.16"
+    "@mui/system" "^5.14.16"
+    "@mui/types" "^7.2.8"
+    "@mui/utils" "^5.14.16"
+    "@types/react-transition-group" "^4.4.8"
     clsx "^2.0.0"
     csstype "^3.1.2"
     prop-types "^15.8.1"
@@ -1991,7 +1978,7 @@
     jss-plugin-vendor-prefixer "^10.10.0"
     prop-types "^15.8.1"
 
-"@mui/system@^5.14.15", "@mui/system@^5.14.16":
+"@mui/system@^5.14.16":
   version "5.14.16"
   resolved "https://registry.yarnpkg.com/@mui/system/-/system-5.14.16.tgz#5c30c5123767416358c3b73774eb985e189119a4"
   integrity sha512-uKnPfsDqDs8bbN54TviAuoGWOmFiQLwNZ3Wvj+OBkJCzwA6QnLb/sSeCB7Pk3ilH4h4jQ0BHtbR+Xpjy9wlOuA==
@@ -2005,12 +1992,12 @@
     csstype "^3.1.2"
     prop-types "^15.8.1"
 
-"@mui/types@^7.2.7", "@mui/types@^7.2.8":
+"@mui/types@^7.2.8":
   version "7.2.8"
   resolved "https://registry.yarnpkg.com/@mui/types/-/types-7.2.8.tgz#2ed4402f104d65fcd4f460ca358654c8935e2285"
   integrity sha512-9u0ji+xspl96WPqvrYJF/iO+1tQ1L5GTaDOeG3vCR893yy7VcWwRNiVMmPdPNpMDqx0WV1wtEW9OMwK9acWJzQ==
 
-"@mui/utils@^5.14.15", "@mui/utils@^5.14.16", "@mui/utils@^5.14.3":
+"@mui/utils@^5.14.16", "@mui/utils@^5.14.3":
   version "5.14.16"
   resolved "https://registry.yarnpkg.com/@mui/utils/-/utils-5.14.16.tgz#09a15fd45530cadc642c5c08eb6cc660ea230506"
   integrity sha512-3xV31GposHkwRbQzwJJuooWpK2ybWdEdeUPtRjv/6vjomyi97F3+68l+QVj9tPTvmfSbr2sx5c/NuvDulrdRmA==
@@ -2770,10 +2757,10 @@
   dependencies:
     "@types/react" "*"
 
-"@types/react-transition-group@^4.4.6", "@types/react-transition-group@^4.4.7":
-  version "4.4.7"
-  resolved "https://registry.yarnpkg.com/@types/react-transition-group/-/react-transition-group-4.4.7.tgz#bf69f269d74aa78b99097673ca6dd6824a68ef1c"
-  integrity sha512-ICCyBl5mvyqYp8Qeq9B5G/fyBSRC0zx3XM3sCC6KkcMsNeAHqXBKkmat4GqdJET5jtYUpZXrxI5flve5qhi2Eg==
+"@types/react-transition-group@^4.4.6", "@types/react-transition-group@^4.4.8":
+  version "4.4.8"
+  resolved "https://registry.yarnpkg.com/@types/react-transition-group/-/react-transition-group-4.4.8.tgz#46f87d80512959cac793ecc610a93d80ef241ccf"
+  integrity sha512-QmQ22q+Pb+HQSn04NL3HtrqHwYMf4h3QKArOy5F8U5nEVMaihBs3SR10WiOM1iwPz5jIo8x/u11al+iEGZZrvg==
   dependencies:
     "@types/react" "*"
 
