@@ -32,7 +32,7 @@
     "@feathersjs/rest-client": "^4.5.16",
     "@mui/lab": "^5.0.0-alpha.152",
     "@mui/material": "^5.14.17",
-    "@mui/styles": "^5.14.16",
+    "@mui/styles": "^5.14.17",
     "axios": "^1.6.1",
     "ra-data-feathers": "^2.9.4",
     "ra-input-rich-text": "^4.15.4",
