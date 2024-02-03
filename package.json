@@ -31,7 +31,7 @@
     "@feathersjs/feathers": "^4.5.16",
     "@feathersjs/rest-client": "^4.5.16",
     "@mui/lab": "^5.0.0-alpha.163",
-    "@mui/material": "^5.15.6",
+    "@mui/material": "^5.15.7",
     "@mui/styles": "^5.15.7",
     "axios": "^1.6.7",
     "ra-data-feathers": "^2.9.4",
