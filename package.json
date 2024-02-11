@@ -29,7 +29,7 @@
   "dependencies": {
     "@feathersjs/authentication-client": "^4.5.16",
     "@feathersjs/feathers": "^4.5.16",
-    "@feathersjs/rest-client": "^4.5.16",
+    "@feathersjs/rest-client": "^5.0.21",
     "@mui/lab": "^5.0.0-alpha.165",
     "@mui/material": "^5.15.9",
     "@mui/styles": "^5.15.9",
