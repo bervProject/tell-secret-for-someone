@@ -1879,19 +1879,6 @@
     "@linaria/logger" "^4.0.0"
     babel-merge "^3.0.0"
 
-"@mui/base@5.0.0-beta.38":
-  version "5.0.0-beta.38"
-  resolved "https://registry.yarnpkg.com/@mui/base/-/base-5.0.0-beta.38.tgz#0d79c1158d18d9decfc8fa3ab87b4830a49cf952"
-  integrity sha512-AsjD6Y1X5A1qndxz8xCcR8LDqv31aiwlgWMPxFAX/kCKiIGKlK65yMeVZ62iQr/6LBz+9hSKLiD1i4TZdAHKcQ==
-  dependencies:
-    "@babel/runtime" "^7.23.9"
-    "@floating-ui/react-dom" "^2.0.8"
-    "@mui/types" "^7.2.13"
-    "@mui/utils" "^5.15.12"
-    "@popperjs/core" "^2.11.8"
-    clsx "^2.1.0"
-    prop-types "^15.8.1"
-
 "@mui/base@5.0.0-beta.39":
   version "5.0.0-beta.39"
   resolved "https://registry.yarnpkg.com/@mui/base/-/base-5.0.0-beta.39.tgz#9b8bab9d292e78721565197bead5050a79881194"
@@ -1917,16 +1904,16 @@
   dependencies:
     "@babel/runtime" "^7.21.0"
 
-"@mui/lab@^5.0.0-alpha.167":
-  version "5.0.0-alpha.167"
-  resolved "https://registry.yarnpkg.com/@mui/lab/-/lab-5.0.0-alpha.167.tgz#8f00b0fe8f236691bc2cffadfd4feb542b0151cd"
-  integrity sha512-BNQJ7fBBvL68WGVnzAhbtTmabSuJDXaILr9dz/3RNK4TgGXPgWCAr7qtJeUdc4p1t7c4Z1ifG8UwgqD+5hzMNg==
+"@mui/lab@^5.0.0-alpha.168":
+  version "5.0.0-alpha.168"
+  resolved "https://registry.yarnpkg.com/@mui/lab/-/lab-5.0.0-alpha.168.tgz#9d9f60aec49adc9dc24d6bb2e7ad5c3ea2c6e7e4"
+  integrity sha512-VKLQP5J/SujylvW3/riMtQYTspTluUkKLW/eu48RwuKby583cFCg8p4fWl4PpC3drwq6g9AeJ7DG4w0K+zFbdA==
   dependencies:
     "@babel/runtime" "^7.23.9"
-    "@mui/base" "5.0.0-beta.38"
-    "@mui/system" "^5.15.12"
+    "@mui/base" "5.0.0-beta.39"
+    "@mui/system" "^5.15.13"
     "@mui/types" "^7.2.13"
-    "@mui/utils" "^5.15.12"
+    "@mui/utils" "^5.15.13"
     clsx "^2.1.0"
     prop-types "^15.8.1"
 
@@ -1999,7 +1986,7 @@
     jss-plugin-vendor-prefixer "^10.10.0"
     prop-types "^15.8.1"
 
-"@mui/system@^5.15.12", "@mui/system@^5.15.13":
+"@mui/system@^5.15.13":
   version "5.15.13"
   resolved "https://registry.yarnpkg.com/@mui/system/-/system-5.15.13.tgz#dd86dbbebf92e4afdf0fa01afdae28598745ba4c"
   integrity sha512-eHaX3sniZXNWkxX0lmcLxROhQ5La0HkOuF7zxbSdAoHUOk07gboQYmF6hSJ/VBFx/GLanIw67FMTn88vc8niLg==
