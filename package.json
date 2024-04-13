@@ -40,7 +40,7 @@
     "react-admin": "^4.16.15",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
-    "typescript": "5.4.4"
+    "typescript": "5.4.5"
   },
   "devDependencies": {
     "@types/jest": "29.5.12",
