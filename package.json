@@ -27,7 +27,7 @@
   },
   "private": true,
   "dependencies": {
-    "@feathersjs/authentication-client": "^4.5.16",
+    "@feathersjs/authentication-client": "^5.0.26",
     "@feathersjs/feathers": "^4.5.16",
     "@feathersjs/rest-client": "^4.5.16",
     "@mui/lab": "^5.0.0-alpha.170",
