@@ -8,6 +8,10 @@ updates:
     time: "08:00"
     timezone: Asia/Jakarta
   open-pull-requests-limit: 100
+  groups:
+    feathersjs:
+      patterns:
+        - "@feathersjs*"
 
 - package-ecosystem: github-actions
   directory: "/"
