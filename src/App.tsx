@@ -1,7 +1,6 @@
 import React from 'react';
 import { Admin, Resource } from 'react-admin';
 import { restClient, authClient } from 'ra-data-feathers';
-import { createBrowserHistory as createHistory } from 'history';
 import feathersClient from './feathersClient';
 import Dashboard from './Dashboard';
 import { UsersList } from './services/Users';
@@ -26,12 +25,9 @@ const restClientOptions = {
   usePatch: true, // Use PATCH instead of PUT for UPDATE requests. Optional.
 };
 
-const history = createHistory();
-
 const App: React.FC = () => {
   return (
     <Admin
-      history={history}
       dashboard={Dashboard}
       dataProvider={restClient(feathersClient, restClientOptions)}
       authProvider={authClient(feathersClient, authClientOptions)}
