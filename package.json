@@ -36,7 +36,7 @@
     "axios": "^1.11.0",
     "ra-data-feathers": "^3.0.1",
     "ra-input-rich-text": "^5.10.0",
-    "react": "^19.1.0",
+    "react": "^19.1.1",
     "react-admin": "^5.10.0",
     "react-dom": "^19.1.0",
     "react-scripts": "5.0.1",
@@ -45,7 +45,7 @@
   "devDependencies": {
     "@types/jest": "30.0.0",
     "@types/node": "24.1.0",
-    "@types/react": "19.1.8",
+    "@types/react": "19.1.9",
     "@types/react-dom": "19.1.6",
     "@typescript-eslint/eslint-plugin": "^8.37.0",
     "@typescript-eslint/parser": "^8.38.0",
