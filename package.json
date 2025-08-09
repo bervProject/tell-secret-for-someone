@@ -38,7 +38,7 @@
     "ra-input-rich-text": "^5.10.1",
     "react": "^19.1.1",
     "react-admin": "^5.10.1",
-    "react-dom": "^19.1.0",
+    "react-dom": "^19.1.1",
     "react-scripts": "5.0.1",
     "typescript": "5.8.3"
   },
@@ -46,7 +46,7 @@
     "@types/jest": "30.0.0",
     "@types/node": "24.2.1",
     "@types/react": "19.1.9",
-    "@types/react-dom": "19.1.6",
+    "@types/react-dom": "19.1.7",
     "@typescript-eslint/eslint-plugin": "^8.38.0",
     "@typescript-eslint/parser": "^8.39.0",
     "eslint-config-prettier": "^10.1.8",
