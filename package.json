@@ -35,7 +35,7 @@
     "@mui/styles": "^6.4.11",
     "axios": "^1.12.2",
     "ra-data-feathers": "^3.0.1",
-    "ra-input-rich-text": "^5.11.3",
+    "ra-input-rich-text": "^5.11.4",
     "react": "^19.1.1",
     "react-admin": "^5.11.3",
     "react-dom": "^19.1.1",
