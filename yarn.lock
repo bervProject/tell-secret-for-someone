@@ -9190,10 +9190,10 @@ ra-i18n-polyglot@^5.12.3:
     node-polyglot "^2.2.2"
     ra-core "^5.12.3"
 
-ra-input-rich-text@^5.12.3:
-  version "5.12.3"
-  resolved "https://registry.yarnpkg.com/ra-input-rich-text/-/ra-input-rich-text-5.12.3.tgz#616f3e1bc5ac965bb47001906b06cb8b660e6fcc"
-  integrity sha512-MDJMtSBcnOy5HRwi6pUmYvOtr7Y2zIhCaaWmDcFzyGywgVfBOBILZujR/5ygmoVTCOmIawbQjz5Zd5LtYxBKDg==
+ra-input-rich-text@^5.13.1:
+  version "5.13.1"
+  resolved "https://registry.yarnpkg.com/ra-input-rich-text/-/ra-input-rich-text-5.13.1.tgz#9dd37631c55f4886978489a06db40b2859ed5cf1"
+  integrity sha512-UjLJaR6YBlG5Q2JW1fvaDpwfNWzPGefk6I3uz8dOLzp9vSlaMhLNRIUpE/GBT/eXp84icE9G9u/u2Q6pI6+taA==
   dependencies:
     "@tiptap/core" "^2.0.3"
     "@tiptap/extension-color" "^2.0.3"
