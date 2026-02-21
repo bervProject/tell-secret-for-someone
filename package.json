@@ -30,7 +30,7 @@
     "@feathersjs/authentication-client": "^5.0.41",
     "@feathersjs/feathers": "^5.0.37",
     "@feathersjs/rest-client": "^5.0.41",
-    "@mui/lab": "^7.0.1-beta.21",
+    "@mui/lab": "^7.0.1-beta.22",
     "@mui/material": "^7.3.8",
     "@mui/styles": "^6.4.11",
     "axios": "^1.13.5",
