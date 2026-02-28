@@ -33,7 +33,7 @@
     "@mui/lab": "^7.0.1-beta.22",
     "@mui/material": "^7.3.8",
     "@mui/styles": "^6.4.11",
-    "axios": "^1.13.5",
+    "axios": "^1.13.6",
     "ra-data-feathers": "^3.0.1",
     "ra-input-rich-text": "^5.14.3",
     "react": "^19.2.4",
