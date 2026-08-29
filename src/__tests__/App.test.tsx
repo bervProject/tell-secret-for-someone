@@ -4,10 +4,8 @@ import '@testing-library/jest-dom';
 
 // Mock react-admin to avoid complex setup
 jest.mock('react-admin', () => ({
-  Admin: ({ children, dashboard }: any) => (
-    <div data-testid="admin-container">
-      {children}
-    </div>
+  Admin: ({ children }: { children: React.ReactNode }) => (
+    <div data-testid="admin-container">{children}</div>
   ),
   Resource: () => null,
 }));
