@@ -35,7 +35,7 @@
     "axios": "^1.20.0",
     "ra-data-feathers": "^3.0.1",
     "ra-input-rich-text": "^5.15.5",
-    "react": "^19.3.0",
+    "react": "^19.3.1",
     "react-admin": "^5.15.5",
     "react-dom": "^19.3.0",
     "react-scripts": "5.0.1",
