@@ -37,7 +37,7 @@
     "ra-input-rich-text": "^5.15.5",
     "react": "^19.3.1",
     "react-admin": "^5.15.5",
-    "react-dom": "^19.3.0",
+    "react-dom": "^19.3.1",
     "react-scripts": "5.0.1",
     "typescript": "6.0.3"
   },
