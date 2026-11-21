@@ -8974,7 +8974,7 @@ queue-microtask@^1.2.2:
   resolved "https://registry.yarnpkg.com/queue-microtask/-/queue-microtask-1.2.3.tgz#4929228bbc724dfac43e0efb058caf7b6cfb6243"
   integrity sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==
 
-ra-core@^5.15.6, ra-core@^5.15.7:
+ra-core@^5.15.7:
   version "5.15.7"
   resolved "https://registry.yarnpkg.com/ra-core/-/ra-core-5.15.7.tgz#c8a0b75e3c7c4b8eb0553647c3ed16f1fabaf071"
   integrity sha512-27Fv/60kEtpu4JlVnb9h9wSPmawabBDNgrkIEigoVU7PXxOgTrVN/d5gY46gPBQx59il2qdAm//jpq5rLpImFg==
@@ -8997,7 +8997,7 @@ ra-data-feathers@^3.0.1:
     jwt-decode "^2.2.0"
     object-diff "^0.0.4"
 
-ra-i18n-polyglot@^5.15.6:
+ra-i18n-polyglot@^5.15.7:
   version "5.15.7"
   resolved "https://registry.yarnpkg.com/ra-i18n-polyglot/-/ra-i18n-polyglot-5.15.7.tgz#57cd9cdcabf6575cbe544b681885f0a45e4ca916"
   integrity sha512-lNznFPTqtdB9rEd0mLJsIhz3NA6tRkzBAGuz/SkHLO8rViQ5iLx9EHCHasensfgiVnOC+jq8ReXyo5TdN1tvAg==
@@ -9021,14 +9021,14 @@ ra-input-rich-text@^5.15.6:
     "@tiptap/starter-kit" "^3.20.4"
     clsx "^2.1.1"
 
-ra-language-english@^5.15.6:
+ra-language-english@^5.15.7:
   version "5.15.7"
   resolved "https://registry.yarnpkg.com/ra-language-english/-/ra-language-english-5.15.7.tgz#ca3eddbb782f2f6fb60697eb227da362eb83cf7f"
   integrity sha512-VDSrT53SaQEvUUA1Rfq+RfqCNCGxGd2K+/2BsBJFuZ61BlYM5S57aOB/AL10QPUmJqrkiRbAEoQDQ/BuSDE1BA==
   dependencies:
     ra-core "^5.15.7"
 
-ra-ui-materialui@^5.15.6:
+ra-ui-materialui@^5.15.7:
   version "5.15.7"
   resolved "https://registry.yarnpkg.com/ra-ui-materialui/-/ra-ui-materialui-5.15.7.tgz#7e00b987932e76b12afd066cf112937dd6e879c3"
   integrity sha512-V5rzO16EWdvcrj4/EMIaUQlPwWkUiu9U8JxZCnjP9UtBUgEJU2eyLhsJ5xZc2yevYcLWTiBbJ1pKDaPRAeWpLQ==
@@ -9081,20 +9081,20 @@ raw-body@~2.5.3:
     iconv-lite "~0.4.24"
     unpipe "~1.0.0"
 
-react-admin@^5.15.6:
-  version "5.15.6"
-  resolved "https://registry.yarnpkg.com/react-admin/-/react-admin-5.15.6.tgz#c5b6f68f7c5f69e577ec58a3ff83da3fb871b2a2"
-  integrity sha512-YcqO0qcPGfxd2+9JkBgm9Br8xh//c4yZWtD+Mzb2w46zUy9MWSox3nvHkZTICMSi6x+nF8dA9EhO+NyNUIQBSA==
+react-admin@^5.15.7:
+  version "5.15.7"
+  resolved "https://registry.yarnpkg.com/react-admin/-/react-admin-5.15.7.tgz#0f245f95f8449c0418158251303272033372b151"
+  integrity sha512-hj4V6hPY/yw01X+qzcexekrxTB6+SNFS+6lwSS3QRfV53OnPllYWvP4PF7vDATN9i+E77x99BgJaDkA2DZFcmQ==
   dependencies:
     "@emotion/react" "^11.14.0"
     "@emotion/styled" "^11.14.0"
     "@mui/icons-material" "^5.16.12 || ^6.0.0 || ^7.0.0 || ^9.0.0"
     "@mui/material" "^5.16.12 || ^6.0.0 || ^7.0.0 || ^9.0.0"
     "@tanstack/react-query" "^5.83.0"
-    ra-core "^5.15.6"
-    ra-i18n-polyglot "^5.15.6"
-    ra-language-english "^5.15.6"
-    ra-ui-materialui "^5.15.6"
+    ra-core "^5.15.7"
+    ra-i18n-polyglot "^5.15.7"
+    ra-language-english "^5.15.7"
+    ra-ui-materialui "^5.15.7"
     react-hook-form "^7.72.0"
     react-router "^6.28.1 || ^7.1.1"
     react-router-dom "^6.28.1 || ^7.1.1"
